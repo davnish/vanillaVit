@@ -1,0 +1,4 @@
+env/
+data/
+__pycache__/
+vanilla_vit-8.ipynb
