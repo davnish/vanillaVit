@@ -9,7 +9,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 import matplotlib.pyplot as plt
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
+# print(f"Using device: {device}")
 
 class VisionTransformer(nn.Module):
     def __init__(
